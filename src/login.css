@@ -1,0 +1,108 @@
+#root {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.dostlog{
+  font-size: 29px;
+  font-weight: bold;
+}
+
+.background-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Blue overlay */
+.background-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(81, 114, 157, 0.8);
+  z-index: 0;
+}
+
+.LOGIN {
+  background-color: #4A70A9;
+  border-radius: 30px;
+  width: 100px; 
+  height: 40px;   
+  color: #ffff;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+
+}
+
+.LOGIN:hover {
+  background-color: #3a5a89; 
+}
+
+.field1, .field2 {
+  background-color: #ffff;
+  border-radius: 15px;
+  width: 300px;
+  height: 35px;  
+  padding: 8px 15px;  
+  font-style: normal;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.DOSTLOGO {
+  width: 55%;
+}
+
+.login-container {
+  background: rgba(239, 236, 227, 0.95);
+  padding: 40px 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+  max-width: 350px;
+  min-height: 350px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+h5 {
+  color: #000000; 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); 
+  margin-top: 10px;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+h4 {
+  margin: 5px 0 20px 0;
+}
+.login-container > div {
+  text-align: center;
+}
+
+.login-container > div {
+  text-align: center;
+}
+
+.footer-text {
+  text-align: center;
+}
